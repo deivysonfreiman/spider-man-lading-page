@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    
+    
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(0deg, #1A2841 0%, #0B1322 100%, #080A0E 100%);
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.logo {
+    margin: 10px 0px 0px 20px;
+}
+
+.logos {
+    margin: 20px 20px;
+}
+
+.actvision {
+    margin-bottom: 4px;
+    margin-right: 6px;
+}
+
+.links {
+    width: 70%;
+    margin: 40px 0 55px;
+}
+header {
+    justify-content: space-between;
+    display: flex;
+}
+
+.text-links {
+    color: #F00;
+    font-size: 25px;
+    font-weight: 500;
+    text-decoration: none;
+    margin-right: 50px;
+}
+
+main {
+    width: 50%;
+    height: calc(100% - 150px);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+}
+
+h1 {
+    font-family: 'THE AMAZING SPIDER-MAN', sans-serif;
+    color: white;
+    font-size: 65px;
+    font-weight: 400;
+    margin-top: 100px;
+    
+    
+}
+
+p {
+    
+    width: 77%;
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+    margin-left: 100px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    line-height: 20px;
+}
+
+
+.text-left {
+    margin-bottom: 100px;
+}
+
+button {
+    color: white;
+    background-color: #F00;
+    box-shadow: 0px 0px 15px 0px #F00;
+    border-radius: 10px;
+    border: none;
+    padding: 25px 35px;
+    margin-right: 15px;
+    cursor: pointer;
+    
+}
+
+.container-right {
+    width: 40%; 
+    height: 40%;
+    display: inline-block;
+}
+
+.aranha {
+    width: 50%;
+    position: absolute;
+}
+
+main {
+    background-image: url(./img/aranha-logo\ 1.png);
+    background-repeat: no-repeat;
+    background-size: 40vw;
+    background-position: center;
+
+}
